@@ -1,17 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faAdd,
-  faChess,
-  faGift,
-  faHome,
-  faRadiation,
-  faUser,
-} from '@fortawesome/free-solid-svg-icons'
 import {
   FaReact,
   FaJava,
   FaFigma,
-  FaAndroid,
   FaHtml5,
   FaCss3,
   FaJsSquare,
