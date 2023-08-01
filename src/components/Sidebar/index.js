@@ -67,7 +67,7 @@ const Sidebar = () => (
           </div>
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           target="_blank"
           rel="noreferrer"
@@ -77,7 +77,7 @@ const Sidebar = () => (
             <FaInstagram className="icon-item" />
           </div>
         </a>
-      </li>
+      </li> */}
     </ul>
   </div>
 )

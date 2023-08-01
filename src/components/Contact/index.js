@@ -66,12 +66,12 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I'm interested in full-time opportunities that would not only enable
-            the use of my skillset in the industry, but take it to further
-            heights as well.
+            I'm interested in full-time software development opportunities that
+            would enable the use of my skillset in the industry and take it to
+            further heights.
           </p>
           <div className="contact-form">
-            <form ref={refForm} onSubmit={sendEmail}>
+            <form ref={refForm} onSubmit={sendEmail} id="sendform">
               <ul>
                 <li className="half">
                   <input type="text" name="user_name" placeholder="Name" />
@@ -79,19 +79,19 @@ const Contact = () => {
                 <li className="half">
                   <input
                     type="email"
-                    name="user_mail"
+                    name="user_email"
                     placeholder="Email"
                     required
                   />
                 </li>
-                {/* <li className="half">
+                <li className="half">
                   <input
                     type="text"
-                    name="user_email"
+                    name="subject"
                     placeholder="Subject"
                     required
                   />
-                </li> */}
+                </li>
                 <li>
                   <textarea
                     name="message"
